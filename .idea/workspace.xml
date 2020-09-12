@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd3292b-a3a3-419d-9021-c8d05e9febbc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/_scaffold/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/_scaffold/controllers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/_scaffold/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/_scaffold/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/examples/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/examples/templates/form.html" afterDir="false" />
-    </list>
+    <list default="true" id="0aa337e8-18bd-41ac-a6f4-453836d5b95f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1Y1ntEiQgTkr3TGQsB5DEOkrCQZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ZG6yW2mtm7chpaGUzM4QPAcggR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,42 +15,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../работа/py4web_development" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6fd3292b-a3a3-419d-9021-c8d05e9febbc" name="Default Changelist" comment="" />
-      <created>1582119180535</created>
+      <changelist id="0aa337e8-18bd-41ac-a6f4-453836d5b95f" name="Default Changelist" comment="" />
+      <created>1584453337220</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582119180535</updated>
+      <updated>1584453337220</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586274317247">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1584453918222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586274317247" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1587473652612">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584453918222" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1584453909801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587473652612" />
-    <state x="279" y="58" key="SettingsEditor" timestamp="1586274544092">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586274544092" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587473081847">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587473081847" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587056148146">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587056148146" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584453909801" />
   </component>
 </project>
