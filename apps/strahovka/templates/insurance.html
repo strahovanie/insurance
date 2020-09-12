@@ -1,0 +1,84 @@
+<div class="field"><label class="label" for="none_start">Name</label>
+    <div class="control"><input class="input" id="none_name" name="start" type="text"/></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_start">Surname</label>
+    <div class="control"><input class="input" id="none_surname" name="start" type="text"/></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_start">Birth date</label>
+    <div class="control"><input class="input" id="none_birth_date" name="start" type="date"/></div>
+    <p class="help">Вам должно быть больше 18 лет</p></div>
+<div class="field"><label class="label" for="none_start">Start</label>
+    <div class="control"><input class="input" id="none_start" name="start" type="date"/></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_end">End</label>
+    <div class="control"><input class="input" id="none_end" name="end" type="date" min="2020-01-01"/></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_days">Days</label>
+    <div class="control"><input class="input" id="none_days" name="days" type="text" disabled=/></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_country">Country</label>
+    <div class="control"><select class="select" id="none_country" name="country">
+        <option value=""></option>
+        <option value="США(крім Шенгену)">США(крім Шенгену)</option>
+        <option value="Шенген">Шенген</option>
+        <option value="Туреччина">Туреччина</option>
+        <option value="Інші країни">Інші країни</option>
+    </select></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_program">Program</label>
+    <div class="control"><select class="select" id="none_program" name="program">
+        <option value=""></option>
+        <option value="CLASSIC">CLASSIC</option>
+        <option value="GOLD">GOLD</option>
+        <option value="PLATINUM">PLATINUM</option>
+    </select></div>
+    <p class="help"></p></div>
+<div class="field"><label class="label" for="none_insurance_amount">Insurance Amount</label>
+    <div class="control"><input class="input" id="none_insurance_amount" name="insurance_amount" type="text"/></div>
+    <p class="help"></p></div>
+    <button id="add">Добавить</button>
+<input name="_formkey" type="hidden" value="none"/>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        var inf = [];
+        var today = new Date();
+        today.setFullYear(today.getFullYear() - 18);
+        valid_birth_date=(today.toLocaleDateString().split(".").reverse()).join("-");
+        var birth_date = document.querySelector("#none_birth_date");
+        birth_date.setAttribute("max", valid_birth_date);
+
+        $('input').change(function() {
+            inf[this.id]=this.value;
+            if ("none_start" in inf){
+                var min_start = document.querySelector("#none_end");
+                min_start.setAttribute("min", inf['none_start']);
+            };
+            if ("none_end" in inf){
+                var max_end = document.querySelector("#none_start");
+                max_end.setAttribute("max", inf['none_end']);
+            };
+            if ("none_start" in inf && "none_end" in inf){
+                days = (Date.parse(inf['none_end']) - Date.parse(inf['none_start']))/864e5 + 1;
+                document.getElementById('none_days').value=days;
+                inf['none_days']=days;
+                console.log(inf);
+            };
+        });
+        $('select').change(function() {
+            inf[this.id]=this.value;
+            console.log(inf);
+           });
+        $(add).bind("click", function(){
+            console.log(inf);
+            $.ajax({
+                type:"POST",
+                data: {'none_start':inf['none_start'],'none_end':inf['none_end'],'none_days':inf['none_days'],'none_country':inf['none_country'],
+                'none_program':inf['none_program'],'none_insurance_amount':inf['none_insurance_amount']},
+                url: 'success',
+                success: function(){console.log('succ')}
+                });
+            });
+    });
+</script>

@@ -1,0 +1,8 @@
+pyjwt
+bottle
+gunicorn
+gevent
+reloader
+pydal3
+yatl
+py4web

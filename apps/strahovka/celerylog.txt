@@ -1,0 +1,96 @@
+[2020-06-02 16:19:38,377: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-02 16:19:40,414: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-02 16:19:47,533: INFO/MainProcess] mingle: all alone
+[2020-06-02 16:19:49,577: INFO/MainProcess] pidbox: Connected to redis://localhost:6379//.
+[2020-06-02 16:19:53,619: INFO/MainProcess] celery@DESKTOP-PKD783C ready.
+[2020-06-02 16:20:11,714: INFO/MainProcess] Received task: apps.strahovka.tasks.my_task[3dd962d6-0661-4851-9d31-34b43b718ee8]  
+[2020-06-02 16:20:11,716: INFO/MainProcess] apps.strahovka.tasks.my_task[3dd962d6-0661-4851-9d31-34b43b718ee8]: Apptask started
+[2020-06-02 16:20:36,241: WARNING/MainProcess] Traceback (most recent call last):
+[2020-06-02 16:20:36,241: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 190, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+[2020-06-02 16:20:36,242: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\_compat.py", line 71, in recv
+    return sock.recv(*args, **kwargs)
+[2020-06-02 16:20:36,242: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\gevent\_socket3.py", line 378, in recv
+    return _socket.socket.recv(self._sock, *args)
+[2020-06-02 16:20:36,242: WARNING/MainProcess] ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+[2020-06-02 16:20:36,242: WARNING/MainProcess] During handling of the above exception, another exception occurred:
+[2020-06-02 16:20:36,243: WARNING/MainProcess] Traceback (most recent call last):
+[2020-06-02 16:20:36,243: WARNING/MainProcess] File "src/gevent/_waiter.py", line 119, in gevent.__waiter.Waiter.switch
+[2020-06-02 16:20:36,243: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\celery\worker\pidbox.py", line 120, in loop
+    connection.drain_events(timeout=1.0)
+[2020-06-02 16:20:36,243: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\connection.py", line 323, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+[2020-06-02 16:20:36,243: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\virtual\base.py", line 963, in drain_events
+    get(self._deliver, timeout=timeout)
+[2020-06-02 16:20:36,244: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 381, in get
+    ret = self.handle_event(fileno, event)
+[2020-06-02 16:20:36,244: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 363, in handle_event
+    return self.on_readable(fileno), self
+[2020-06-02 16:20:36,244: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 359, in on_readable
+    chan.handlers[type]()
+[2020-06-02 16:20:36,244: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 693, in _receive
+    ret.append(self._receive_one(c))
+[2020-06-02 16:20:36,245: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 703, in _receive_one
+    response = c.parse_response()
+[2020-06-02 16:20:36,245: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\client.py", line 3453, in parse_response
+    response = self._execute(conn, conn.read_response)
+[2020-06-02 16:20:36,245: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\client.py", line 3427, in _execute
+    return command(*args, **kwargs)
+[2020-06-02 16:20:36,245: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 734, in read_response
+    response = self._parser.read_response()
+[2020-06-02 16:20:36,245: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 316, in read_response
+    response = self._buffer.readline()
+[2020-06-02 16:20:36,246: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 248, in readline
+    self._read_from_socket()
+[2020-06-02 16:20:36,246: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 214, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+[2020-06-02 16:20:36,246: WARNING/MainProcess] redis.exceptions.ConnectionError: Error while reading from socket: (10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)
+[2020-06-02 16:20:36,247: WARNING/MainProcess] 2020-06-02T13:20:36Z
+[2020-06-02 16:20:36,247: WARNING/MainProcess] <built-in method switch of gevent.__greenlet_primitives.TrackedRawGreenlet object at 0x0B342BB8> failed with ConnectionError
+[2020-06-02 16:22:01,099: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-02 16:22:05,171: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-02 16:22:12,249: INFO/MainProcess] mingle: all alone
+[2020-06-02 16:22:14,281: INFO/MainProcess] pidbox: Connected to redis://localhost:6379//.
+[2020-06-02 16:22:16,306: INFO/MainProcess] celery@DESKTOP-PKD783C ready.
+[2020-06-02 16:22:34,943: WARNING/MainProcess] Traceback (most recent call last):
+[2020-06-02 16:22:34,943: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 190, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+[2020-06-02 16:22:34,944: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\_compat.py", line 71, in recv
+    return sock.recv(*args, **kwargs)
+[2020-06-02 16:22:34,944: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\gevent\_socket3.py", line 378, in recv
+    return _socket.socket.recv(self._sock, *args)
+[2020-06-02 16:22:34,944: WARNING/MainProcess] ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+[2020-06-02 16:22:34,945: WARNING/MainProcess] During handling of the above exception, another exception occurred:
+[2020-06-02 16:22:34,945: WARNING/MainProcess] Traceback (most recent call last):
+[2020-06-02 16:22:34,945: WARNING/MainProcess] File "src/gevent/_waiter.py", line 119, in gevent.__waiter.Waiter.switch
+[2020-06-02 16:22:34,946: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\celery\worker\pidbox.py", line 120, in loop
+    connection.drain_events(timeout=1.0)
+[2020-06-02 16:22:34,946: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\connection.py", line 323, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+[2020-06-02 16:22:34,946: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\virtual\base.py", line 963, in drain_events
+    get(self._deliver, timeout=timeout)
+[2020-06-02 16:22:34,947: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 381, in get
+    ret = self.handle_event(fileno, event)
+[2020-06-02 16:22:34,947: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 363, in handle_event
+    return self.on_readable(fileno), self
+[2020-06-02 16:22:34,948: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 359, in on_readable
+    chan.handlers[type]()
+[2020-06-02 16:22:34,948: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 693, in _receive
+    ret.append(self._receive_one(c))
+[2020-06-02 16:22:34,949: WARNING/MainProcess] File "C:\Users\zikza\AppData\Roaming\Python\Python38\site-packages\kombu\transport\redis.py", line 703, in _receive_one
+    response = c.parse_response()
+[2020-06-02 16:22:34,949: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\client.py", line 3453, in parse_response
+    response = self._execute(conn, conn.read_response)
+[2020-06-02 16:22:34,949: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\client.py", line 3427, in _execute
+    return command(*args, **kwargs)
+[2020-06-02 16:22:34,950: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 734, in read_response
+    response = self._parser.read_response()
+[2020-06-02 16:22:34,950: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 316, in read_response
+    response = self._buffer.readline()
+[2020-06-02 16:22:34,950: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 248, in readline
+    self._read_from_socket()
+[2020-06-02 16:22:34,950: WARNING/MainProcess] File "c:\users\zikza\appdata\local\programs\python\python38-32\lib\site-packages\redis\connection.py", line 214, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+[2020-06-02 16:22:34,951: WARNING/MainProcess] redis.exceptions.ConnectionError: Error while reading from socket: (10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)
+[2020-06-02 16:22:34,951: WARNING/MainProcess] 2020-06-02T13:22:34Z
+[2020-06-02 16:22:34,951: WARNING/MainProcess] <built-in method switch of gevent.__greenlet_primitives.TrackedRawGreenlet object at 0x0AC92BB8> failed with ConnectionError

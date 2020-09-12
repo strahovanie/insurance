@@ -1,0 +1,79 @@
+[[extend "layout.html"]]
+[[if admin=="yes":]]
+<style>
+    div{
+        overflow-x: auto;
+    }
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: black;}
+</style>
+<h2>Полученные запросы:</h2>
+<table cellpadding="1" cellspacing="0" class="grid zebra">
+  <tr>
+      <th id="ID">ID</th>
+      <th id="FIRST_NAME">Имя</th>
+      <th id="LAST_NAME">Фамилия</th>
+      <th id="MOBILE_PHONE">Мобильный телефон</th>
+      <th id="WORK_PHONE">Рабочий телефон</th>
+      <th id="EMAIL1">Email</th>
+      <th id="IAN_FULL_NAME">Название компании</th>
+      <th id="IM_NUMIDENT">Код ЄДРПОУ</th>
+      <th id="ACTION">Действие</th>
+      <th id="REQUEST_DATE">Дата запроса</th>
+      <th id="CONFIRM">Подтвержение</th>
+    </tr>
+  [[for r in rows:]]
+  <tr>
+    <td>[[=r.id]]</td>
+    <td>[[=r.site_user.first_name]]</td>
+    <td>[[=r.site_user.last_name]]</td>
+    <td>[[=r.site_user.mobile_phone]]</td>
+    <td>[[=r.site_user.work_phone]]</td>
+    <td>[[=r.site_user.email1]]</td>
+    <td>[[=r.company_id.IAN_FULL_NAME]]</td>
+    <td>[[=r.company_id.IM_NUMIDENT]]</td>
+    <td>[[=r.action]]</td>
+    <td>[[=r.request_date]]</td>
+    <td>[[=r.confirm]]</td>
+    <td>
+      [[if r.confirm == False:]]
+        [[=accept_request.button('Подтвердить')(id=r.id)]]
+      [[pass]]
+    </td>
+
+  </tr>
+  [[pass]]
+
+    <tr>
+        [[if check_requests() == False:]]
+            <td style="position:absolute; right:0">
+                [[=accept_all_requests.button('Подтвердить все')()]]
+            </td>
+        [[pass]]
+    </tr>
+</table>
+<div style="margin-top:20px">
+    [[=update_company_user.button('Загрузить в базу')()]]
+</div>
+[[else:]]
+NO
+[[pass]]

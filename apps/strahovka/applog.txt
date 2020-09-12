@@ -1,0 +1,854 @@
+2020-05-31 20:50:00,773 - apps.strahovka.controllers - INFO - Index controller entered
+2020-05-31 20:50:00,992 - apps.strahovka.controllers - INFO - Index controller finished
+2020-05-31 20:50:14,030 - apps.strahovka.controllers - INFO - Index controller entered
+2020-05-31 20:50:14,169 - apps.strahovka.controllers - INFO - Index controller finished
+2020-06-02 16:23:02,645 - apps.strahovka.controllers - INFO - Index controller entered
+2020-06-02 16:23:02,887 - apps.strahovka.controllers - INFO - Index controller finished
+2020-06-02 16:49:51,378 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-02 16:49:51,564 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-02 16:49:53,652 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-02 16:49:53,806 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-02 16:49:55,083 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 16:49:55,355 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 16:49:57,639 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 16:49:57,659 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 16:49:57,680 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-06-02 16:49:57,681 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-06-02 16:49:59,165 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 16:49:59,389 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 16:50:09,327 - apps.strahovka.controllers - INFO - Add method started
+2020-06-02 16:50:09,676 - apps.strahovka.controllers - INFO - Action "add" is added to requests table
+2020-06-02 16:50:09,677 - apps.strahovka.controllers - INFO - Add method OK
+2020-06-02 16:50:12,550 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 16:50:12,554 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 16:50:12,565 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-06-02 16:50:12,566 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-06-02 16:50:14,373 - apps.strahovka.controllers - INFO - Accept_all_requests method started
+2020-06-02 16:50:14,378 - apps.strahovka.controllers - INFO - Accept_all_requests method completed successfully
+2020-06-02 16:50:16,359 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 16:50:16,363 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 16:50:16,372 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-06-02 16:50:16,373 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-06-02 16:50:17,543 - apps.strahovka.controllers - INFO - Update_company_user method started
+2020-06-02 16:50:17,543 - apps.strahovka.controllers - INFO - Update_company_user class method is called
+2020-06-02 16:50:17,543 - apps.strahovka.classes - INFO - Update_company_user class method started
+2020-06-02 16:50:17,576 - apps.strahovka.classes - INFO - Update_company_user class method OK
+2020-06-02 16:50:17,576 - apps.strahovka.controllers - INFO - Update_company_user method completed successfully
+2020-06-02 16:50:19,447 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 16:50:19,450 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 16:50:19,454 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-06-02 16:50:19,454 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-06-02 16:50:20,850 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 16:50:21,167 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 16:51:31,626 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-02 16:51:31,824 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-02 16:51:33,454 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 16:51:33,456 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 16:51:33,483 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 74, in admin_page
+    rows=rows,
+NameError: name 'rows' is not defined
+
+2020-06-02 17:50:29,360 - apps.strahovka.controllers - INFO - Admin page entered
+2020-06-02 17:50:29,361 - apps.strahovka.controllers - INFO - Admin page OK
+2020-06-02 17:50:29,366 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-06-02 17:50:29,366 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-06-02 17:50:31,947 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:50:32,183 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:50:47,542 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:50:47,784 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:50:54,905 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:50:55,166 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:10,205 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:10,488 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:19,882 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:20,183 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:29,852 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:30,067 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:36,849 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:37,132 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:42,560 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:42,788 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:51:54,479 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:51:54,765 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:52:00,802 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:52:01,018 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:52:37,932 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:52:38,221 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:52:46,488 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:52:47,268 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:52:58,426 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:52:58,710 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-02 17:52:58,811 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-02 17:52:59,154 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-16 19:53:12,011 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-16 19:53:12,180 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-16 19:54:10,530 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-16 19:54:10,658 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-16 20:04:59,153 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-16 20:04:59,285 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-16 20:05:02,467 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 109, in insurance
+    Field('Початок', 'date'),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: Початок, use rname for "funny" names
+
+2020-06-16 20:05:29,565 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-16 20:05:29,701 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-16 20:05:31,959 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-16 20:05:32,171 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-16 20:05:51,432 - apps.strahovka.controllers - INFO - Add company page entered
+2020-06-16 20:05:51,640 - apps.strahovka.controllers - INFO - Add company page OK
+2020-06-16 20:05:52,889 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-16 20:05:53,049 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-16 20:05:54,889 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 110, in insurance
+    Field('Закінчення', 'date'),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: Закінчення, use rname for "funny" names
+
+2020-06-16 20:07:24,453 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 109, in insurance
+    Field('Початок', 'date', rname="Початок"),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: Початок, use rname for "funny" names
+
+2020-06-16 20:08:14,893 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 110, in insurance
+    Field('Закінчення', 'date'),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: Закінчення, use rname for "funny" names
+
+2020-06-19 14:39:21,697 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 14:39:22,067 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 14:39:25,997 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 112, in insurance
+    Field(''),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: , use rname for "funny" names
+
+2020-06-19 14:40:59,393 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 114, in insurance
+    Field('Insurance amount','integer')],
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 1925, in __init__
+    raise SyntaxError(
+  File "<string>", line None
+SyntaxError: Field: invalid field name: Insurance amount, use rname for "funny" names
+
+2020-06-19 14:51:36,414 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+AttributeError: 'Form' object has no attribute 'start'
+
+2020-06-19 14:51:54,257 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+
+2020-06-19 14:52:34,025 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+TypeError: 'Form' object is not iterable
+
+2020-06-19 14:54:28,166 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 14:54:28,758 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 14:54:43,753 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 14:55:46,428 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 14:55:59,653 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 14:57:31,086 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:01:02,907 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 109, in insurance
+    Field('start', 'date', requires=IS_DATE_IN_RANGE(minimum='01.01.1901',maximum='01.01.3000',format="%d.%m.%y")),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3846, in __init__
+    self.extremes = dict(min=self.formatter(minimum), max=self.formatter(maximum))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:01:23,501 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 109, in insurance
+    Field('start', 'date', requires=IS_DATE_IN_RANGE(minimum='01.01.1901',maximum='01.01.3000',format="%d.%m.%Y")),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3846, in __init__
+    self.extremes = dict(min=self.formatter(minimum), max=self.formatter(maximum))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:01:43,590 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:01:43,839 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:01:48,240 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 109, in insurance
+    Field('start', 'date', requires=IS_DATE_IN_RANGE(minimum='01.01.1901',maximum='01.01.3000',format="%d.%m.%Y")),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3846, in __init__
+    self.extremes = dict(min=self.formatter(minimum), max=self.formatter(maximum))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:03:17,451 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:03:35,657 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:05:29,733 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:05:29,963 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:05:55,831 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:06:27,390 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:08:08,469 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:13:19,197 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:13:19,502 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:15:35,763 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:17:33,946 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:17:34,237 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:17:42,130 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:18:05,571 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:21:10,256 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:21:12,625 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:21:12,864 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:35:45,055 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:35:45,387 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:35:48,825 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 110, in insurance
+    Field('start', 'date', requires=IS_DATE_IN_RANGE(minimum='01.01.2000',maximum='01.01.3000')),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3846, in __init__
+    self.extremes = dict(min=self.formatter(minimum), max=self.formatter(maximum))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:36:34,094 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 110, in insurance
+    Field('start', 'date', requires=IS_DATE_IN_RANGE(format='%d.%m.%Y',minimum='01.01.2000',maximum='01.01.3000')),
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3846, in __init__
+    self.extremes = dict(min=self.formatter(minimum), max=self.formatter(maximum))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:38:45,087 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:38:52,821 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:38:55,289 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:38:55,550 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:41:52,013 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:41:52,188 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:42:11,105 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:42:11,378 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:42:22,238 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 3, in <module>
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 831, in write
+    data = data.xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 300, in xml
+    return self.helper().xml()
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 287, in helper
+    helper = self.formstyle(
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 150, in FormStyleBulma
+    return FormStyleDefault(table, vars, errors, readonly, deletable, classes)
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 34, in FormStyleDefault
+    value = field.formatter(vars.get(field.name))
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2161, in formatter
+    value = item.formatter(value)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\validators.py", line 3723, in formatter
+    year = value.year
+AttributeError: 'str' object has no attribute 'year'
+
+2020-06-19 15:43:08,857 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:43:09,122 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:44:30,785 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 15:44:31,038 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 15:44:37,432 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 112, in insurance
+    form = Form([
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 242, in __init__
+    (value, error) = field.validate(value, record_id)
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pydal\objects.py", line 2174, in validate
+    (value, error) = validator(value, record_id)
+TypeError: check_nonnegative_quantity() takes 1 positional argument but 2 were given
+
+2020-06-19 15:47:35,992 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 509, in wrapper
+    ret = obj.transform(ret)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 295, in transform
+    output = yatl.render(
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\yatl\template.py", line 968, in render
+    exec(code, context)
+  File "<string>", line 1, in <module>
+NameError: name 'errors' is not defined
+
+2020-06-19 16:10:22,216 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:10:22,398 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 16:10:50,586 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 122, in insurance
+    form = Form([
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 257, in __init__
+    validation(self)
+  File "apps\strahovka\controllers.py", line 114, in check_nonnegative_quantity
+    if form.vars['days'] and not form.errors['end'] and not form.errors['start']:
+KeyError: 'end'
+
+2020-06-19 16:15:39,468 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 129, in insurance
+    form = Form([
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 257, in __init__
+    validation(self)
+  File "apps\strahovka\controllers.py", line 120, in check_nonnegative_quantity
+    if (end - start).days != form['days']:
+TypeError: 'Form' object is not subscriptable
+
+2020-06-19 16:15:43,328 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:15:43,510 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 16:15:57,924 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 129, in insurance
+    form = Form([
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 257, in __init__
+    validation(self)
+  File "apps\strahovka\controllers.py", line 120, in check_nonnegative_quantity
+    if (end - start).days != form['days']:
+TypeError: 'Form' object is not subscriptable
+
+2020-06-19 16:16:42,930 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:16:43,081 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 16:16:43,215 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:16:43,430 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 16:18:04,555 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:18:04,758 - apps.strahovka.controllers - INFO - Index page OK
+2020-06-19 16:18:23,219 - apps.strahovka.controllers - INFO - Index page entered
+2020-06-19 16:18:23,435 - apps.strahovka.controllers - INFO - Index page OK
+2020-07-01 11:22:06,463 - apps.strahovka.controllers - INFO - Index page entered
+2020-07-01 11:22:06,634 - apps.strahovka.controllers - INFO - Index page OK
+2020-07-01 13:02:53,125 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 130, in insurance
+    form = Form([
+  File "D:\studying\работа\py4web_development\py4web\py4web\utils\form.py", line 257, in __init__
+    validation(self)
+  File "apps\strahovka\controllers.py", line 116, in check_nonnegative_quantity
+    if form.vars['days']:
+KeyError: 'days'
+
+2020-07-01 13:38:18,616 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 134, in success
+    choice_id = request.POST['none_days']
+  File "C:\Users\zikza\AppData\Local\Programs\Python\Python38-32\lib\site-packages\bottle.py", line 1834, in __getitem__
+    def __getitem__(self, key): return self.dict[key][-1]
+KeyError: 'none_days'
+
+2020-07-01 13:52:00,159 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 130, in insurance
+    print(request.POST.get('inf')+1)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+2020-07-01 13:59:42,433 - root - ERROR - Traceback (most recent call last):
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 546, in wrapper
+    ret = func(*func_args, **func_kwargs)
+  File "D:\studying\работа\py4web_development\py4web\py4web\core.py", line 507, in wrapper
+    ret = func(*args, **kwargs)
+  File "apps\strahovka\controllers.py", line 136, in success
+    print(dict(request.POST.get('inf')))
+TypeError: 'NoneType' object is not iterable
+
+2020-07-14 15:29:17,741 - apps.strahovka.controllers - INFO - Index page entered
+2020-07-14 15:29:18,024 - apps.strahovka.controllers - INFO - Index page OK
+2020-09-02 14:00:25,650 - apps.strahovka.controllers - INFO - Index page entered
+2020-09-02 14:00:25,914 - apps.strahovka.controllers - INFO - Index page OK
+2020-09-02 14:00:38,013 - apps.strahovka.controllers - INFO - Index page entered
+2020-09-02 14:00:38,166 - apps.strahovka.controllers - INFO - Index page OK
+2020-09-02 14:00:39,675 - apps.strahovka.controllers - INFO - Upload to database as admin started (upload method)
+2020-09-02 14:00:39,677 - apps.strahovka.controllers - INFO - Upload to database as admin OK (upload method)
+2020-09-02 14:00:41,651 - apps.strahovka.controllers - INFO - Add company page entered
+2020-09-02 14:00:41,914 - apps.strahovka.controllers - INFO - Add company page OK
+2020-09-02 14:00:52,562 - apps.strahovka.controllers - INFO - Admin page entered
+2020-09-02 14:00:52,607 - apps.strahovka.controllers - INFO - Admin page OK
+2020-09-02 14:00:52,778 - apps.strahovka.controllers - INFO - Check_requests method started
+2020-09-02 14:00:52,781 - apps.strahovka.controllers - INFO - Check_requests method completed successfully
+2020-09-02 14:00:56,247 - apps.strahovka.controllers - INFO - Upload to database as admin started (upload method)
+2020-09-02 14:00:56,249 - apps.strahovka.controllers - INFO - Upload to database as admin OK (upload method)
+2020-09-12 18:53:26,071 - apps.strahovka.controllers - INFO - Index page entered
+2020-09-12 18:53:26,454 - apps.strahovka.controllers - INFO - Index page OK
